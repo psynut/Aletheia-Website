@@ -1,0 +1,49 @@
+
+.title-logo{
+    position: relative;
+}
+
+.aletheia-name{
+    font-family: 'Andika', sans-serif;
+    font-size: 4em;
+    color: #274e13;
+}
+
+.aletheia-a{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.aletheia-a-small{
+    font-weight: bold;
+    font-size: .95em;
+}
+
+.aletheia-heart{
+    position: absolute;
+    top: 55px;
+    left: 20.5px;
+    color: #85200c;
+    rotate: 55deg;
+    font-size: 1.8em;
+}
+
+.aletheia-crown{
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    color: #85200c;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.aletheia-crown-mid{
+    position: relative;
+    top: -3px;
+    font-size: .9em;
+}
+
+.black{
+    color: black;
+
+}
