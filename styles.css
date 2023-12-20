@@ -1,17 +1,25 @@
-
-.title-logo{
+/*.title-logo{
     position: relative;
 }
 
 .aletheia-name{
+    text-align: center;
     font-family: 'Andika', sans-serif;
     font-size: 4em;
     color: #274e13;
 }
 
+h5.aletheia-name{
+    font-size: 2em;
+}
+
 .aletheia-a{
     font-weight: bold;
     font-size: 1.5em;
+}
+
+h5 .aletheia-a{
+    font-size: 1.42em;
 }
 
 .aletheia-a-small{
@@ -28,6 +36,12 @@
     font-size: 1.8em;
 }
 
+h5.aletheia-heart{
+    font-size: .85em;
+    top: 25px;
+    left: 9.5px;
+}
+
 .aletheia-crown{
     position: absolute;
     top: 10px;
@@ -37,13 +51,143 @@
     font-size: 1.5em;
 }
 
+h5.aletheia-crown{
+    font-size: .75em;
+    top: 4px;
+    left: 1px;
+}
+
 .aletheia-crown-mid{
     position: relative;
     top: -3px;
     font-size: .9em;
 }
 
+h5 .aletheia-crown-mid{
+    top: -1.75px;
+}*/
+
+/*
+Colors:
+Asset Color:#274e13 CalPolyGreen
+Asset Color:#85200c Sienna
+Nuetral Color:#F3EFE0 Eggshell
+Nuetral Color:#80727B TaupeGray
+Call To Action:#80727B RussianViolet
+
+*/
+
+body{
+    background-color: #F3EFE0;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-style: bold;
+    font-size: 3em;
+}
+
+.navbar{
+    background-color: #F3EFE0;
+}
+
+
+.aletheia-name{
+    font-family: 'Andika', sans-serif;
+    color: #274e13;
+}
+
 .black{
     color: black;
 
+}
+
+.heart::before{
+    font-size: .5em;
+    color: #85200c;
+    display: inline-block;
+    transform: translate(414%, -30%)rotate(55deg) ;
+    content: "\2765";
+}
+
+.crown{
+    color: #85200c;
+}
+
+.crown::before{
+    font-size: .35em;
+    display: inline-block;
+    transform: translate(975%, -250%);
+    content: "|";
+}
+
+.crown::after{
+    font-size: .35em;
+    display: inline-block;
+    transform: translate(117%, -237%);
+    content:"\\ \00a0 \00a0 /";
+}
+
+/*Helpful to switch this a swapping out with Javascript later because this does not appear in DOM*/
+.aletheia-a{
+    display: none;
+}
+
+.aletheia-a + span::after{
+    font-weight:bold;
+    font-size: .95em;
+    content: "α";
+}
+
+.first-a + span:after{
+    font-size: 1.5em;
+}
+
+.home .content{
+    height: 75vh;
+    width: 100%;
+    background-image: url('images/SmileShoes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home h2{
+    color: #274e13;
+    text-shadow:
+    1px 1px 0 #F3EFE0,
+    -1px 1px 0 #F3EFE0,
+    -1px -1px 0 #F3EFE0,
+    1px -1px 0 #F3EFE0;
+}
+
+.about{
+    padding: 10px;
+}
+
+.about img{
+    width: 80%;
+}
+
+.training{
+    margin:auto;
+    max-width: 450px;
+}
+
+.training>ul {
+    list-style-type: none;
+}
+
+.training li::before{
+    transform: rotate(-90deg);
+    content: 'workspace_premium';
+    font-family: 'Material Icons';
+}
+
+
+footer{
+    background-color: #F3EFE0;
 }

@@ -22,9 +22,13 @@
 
   <title>Aletheia Therapeutics - Michael Sibrava NCC LMHC</title>
 
+  <!--        Google Fonts                        -->
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Prata&family=Vollkorn&display=swap');
   </style>
+
+  <!--         Google Icons                       -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!--       Bootstrap 5.2.1                     -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -38,22 +42,94 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Shows only when navbar is collapsed / See h1 Aletheia Therapeutics that disappears if collapsed-->
+      <div class="d-sm-block d-lg-none title-logo"><h5 class="aletheia-name heart"><span class = "crown"></span><span class="aletheia-a first-a">a</span><span></span>lethei<span class="aletheia-a">a</span><span></span> <span class="black">Ther<span class="aletheia-a">a</span><span></span>peutics</span></h5>
+      </div>
+
+      <div class="logocontainer">      <a class="navbar-brand" href="#"><img class="navbar-logo" src="images/favicon/ALogo.svg" alt="Envision Logo" width="64"></a></div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Location">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Telehealth">Telehealth</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Sessions">Sessions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Insurance">Insurance</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     
-
+<div id="Home" class="home container-fluid">
     <div class="title-logo">
-      <h1 class="aletheia-name"><span class="aletheia-a">α</span>lethei<span class="aletheia-a-small">α</span> <span class="black">Ther<span class="aletheia-a-small">α</span>peutics</span></h1>
-      <h2 class="aletheia-heart">&#x2765;</h2>
-      <h2 class="aletheia-crown">\ <span class="aletheia-crown-mid">|</span> /</h2>
+      <h1 class="aletheia-name heart"><span class = "crown"></span><span class="aletheia-a first-a crown-mid">a</span><span></span>lethei<span class="aletheia-a">a</span><span></span> <span class="black">Ther<span class="aletheia-a">a</span><span></span>peutics</span></h1>  
+      </div>
+      <div class="content row align-items-center">
+        <div class="col-lg col-md-3 offset-md-9 pb-5">
+          <h2>New Thinking. New Growth.</h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="About" class="about container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h3>Michael Sibrava, NCC, LMHC</h3>
+          <h5>he/him</h5>
+          <p class="text-center text-md-start">Michael Sibrava brings over 20 years of experience working in community mental health settings, private practice, group and classroom settings.
+            His experiences working with a wide range of people informs his ability to provide flexible, adaptive treatment to meet a person’s unique needs.
+            Having worked in such diverse settings allowed to Michael recognize that each person has their own foundation of talents and resources from which to grow. This insight instructs the respect Michael has for each person’s experience and
+            dignity.</p>
+        </div>
+        <div class="photo col">
+        <img src="images/headshot.jpg" alt="Michael Sibrava" class="portrait p-2">
+      </div>
+      </div>
+      <div class="training pt-4">
+        <ul>
+          <li>
+            <span class="certifaction">EMDR Trained</span>
+          </li>
+          <li>
+            <span class="certifaction">Certified Clinical Trauma Professional</span>
+          </li>
+          <li>
+            <span class="certifaction">ADHD - Certified Clinical Services Provide</span>
+          </li>
+          <li>
+            <span class="certifaction">PEERS<sup>&reg</sup> Certified Provider</span>
+          </li>
+        </ul>
+  
   
       </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 <footer class="fixed-bottom text-center">
-    &copy;<span class="copyright-year">2023</span>
-    Aletheia Therapuetics, PLLC
+    &copy;<span class="copyright-year">2023</span></br>
+    Aletheia Therapuetics, PLLC</br>
     Seattle, WA
 </footer>
 
