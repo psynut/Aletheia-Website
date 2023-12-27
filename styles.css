@@ -215,6 +215,27 @@ h2{
     border-radius: 5px;
   }
 
+.telehealth h3{
+    text-align: center;
+}
+
+.telehealth img{
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}
+
+.sessions h3{
+    text-align: center;
+}
+
+.sessions .card{
+    width: 90%;
+}
+
+/*.card-body{
+    margin: 5% auto;
+}*/
 
 footer{
     background-color: #F3EFE0;
