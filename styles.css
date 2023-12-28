@@ -67,15 +67,13 @@ h5 .aletheia-crown-mid{
     top: -1.75px;
 }*/
 
-/*
-Colors:
-Asset Color:#274e13 CalPolyGreen
-Asset Color:#85200c Sienna
-Nuetral Color:#F3EFE0 Eggshell
-Nuetral Color:#80727B TaupeGray
-Call to Action: #9b7ede PaynesGray
-
-*/
+.colors{
+    background-color: #274e13; /*Asset ColorCalPolyGreen*/
+    background-color: #85200c; /*Asset Sienna*/
+    background-color: #F3EFE0; /*Neutral Eggshell*/
+    background-color: #80727B; /*Nuetral TaupeGray*/
+    background-color: #9b7ede; /*Call to Action PaynesGray*/
+}
 
 body{
     background-color: #F3EFE0;
@@ -86,8 +84,13 @@ h1{
 }
 
 h2{
+    font-family: 'Average Sans', sans-serif;
     font-style: bold;
     font-size: 3em;
+}
+
+p{
+    font-family: 'Vollkorn';
 }
 
 .navbar{
@@ -213,10 +216,12 @@ h2{
     padding: 1.2em;
     border: 1px solid #80727B;
     border-radius: 5px;
-  }
+}
 
 .telehealth h3{
     text-align: center;
+    text-shadow:
+    1px 1px 3px #80727B;
 }
 
 .telehealth img{
@@ -227,15 +232,57 @@ h2{
 
 .sessions h3{
     text-align: center;
+    text-shadow:
+    1px 1px 3px #80727B;
 }
 
 .sessions .card{
     width: 90%;
 }
 
-/*.card-body{
-    margin: 5% auto;
-}*/
+.card-header{
+    color: #F3EFE0;
+    text-shadow:
+    2px 2px 3px #80727B;
+    background-color: #274e13;
+}
+
+.insurance{
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/InsuranceBack.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.insurance h3{
+    text-align: center;
+    color: #F3EFE0;
+    text-shadow:
+    1px 1px 3px #80727B;
+}
+
+.insurance .card{
+    margin-top: 10%;
+}
+
+iconify-icon{
+    position: relative;
+    top: 2.5px;
+    left: 3px;
+}
+
+.paypal{
+    font-family: 'Average Sans', sans-serif;
+    font-style: italic;
+}
+
+.zelle {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
 
 footer{
     background-color: #F3EFE0;
