@@ -1,17 +1,10 @@
-html,body{
-    height:100%;
+body{
     background-color: #F3EFE0;
 }
-div{
-    /*position: relative;*/ 
-    overflow: hidden; 
-    height: 100%;
 
-}
 iframe{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height:100%;
 }
