@@ -1,0 +1,54 @@
+.aletheia-name{
+    font-family: 'Andika', sans-serif;
+    color: #274e13;
+}
+
+.black{
+    color: black;
+
+}
+
+.heart::before{
+    font-size: .5em;
+    color: #85200c;
+    display: inline-block;
+    transform: translate(414%, -30%)rotate(55deg) ;
+    content: "\2765";
+}
+
+.crown{
+    color: #85200c;
+}
+
+.crown::before{
+    font-size: .35em;
+    display: inline-block;
+    transform: translate(975%, -250%);
+    content: "|";
+}
+
+.crown::after{
+    font-size: .35em;
+    display: inline-block;
+    transform: translate(117%, -237%);
+    content:"\\ \00a0 \00a0 /";
+}
+
+/*Helpful to switch this a swapping out with Javascript later because this does not appear in DOM*/
+.aletheia-a{
+    display: none;
+}
+
+.aletheia-a + span::after{
+    font-weight:bold;
+    font-size: .95em;
+    content: "α";
+}
+
+.first-a + span:after{
+    font-size: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+}
